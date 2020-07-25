@@ -1,6 +1,6 @@
 ## Project Info
 
-Project built with reference from https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+Project built with reference from [How to deploy React App to GitHub Pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 
 ## React References
 
