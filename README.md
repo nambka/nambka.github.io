@@ -16,38 +16,38 @@ More useful references:
 ## Kiến trúc thư mục của Jekyll
 
 dinhhoanglong:my_blog$ tree  
-	.
-	├── about.md  
-	├── _config.yml  
-	├── css  
-	│   └── main.scss  
-	├── feed.xml  
-	├── _includes  
-	│   ├── footer.html  
-	│   ├── header.html  
-	│   └── head.html  
-	├── index.html  
-	├── _layouts  
-	│   ├── default.html  
-	│   ├── page.html  
-	│   └── post.html  
-	├── _posts  
-	│   └── 2015-09-23-welcome-to-jekyll.markdown  
-	├── _sass  
-	│   ├── _base.scss  
-	│   ├── _layout.scss  
-	│   └── _syntax-highlighting.scss  
-	└── _site  
-	    ├── about  
-	    │   └── index.html  
-	    ├── css  
-	    │   └── main.css  
-	    ├── feed.xml  
-	    ├── index.html  
-	    └── jekyll  
-	        └── update  
-	            └── 2015  
-	                └── 09  
-	                    └── 23  
-	                        └── welcome-to-jekyll.html  
-	13 directories, 20 files
+.  
+├── about.md  
+├── _config.yml  
+├── css  
+│   └── main.scss  
+├── feed.xml  
+├── _includes  
+│   ├── footer.html  
+│   ├── header.html  
+│   └── head.html  
+├── index.html  
+├── _layouts  
+│   ├── default.html  
+│   ├── page.html  
+│   └── post.html  
+├── _posts  
+│   └── 2015-09-23-welcome-to-jekyll.markdown  
+├── _sass  
+│   ├── _base.scss  
+│   ├── _layout.scss  
+│   └── _syntax-highlighting.scss  
+└── _site  
+    ├── about  
+    │   └── index.html  
+    ├── css  
+    │   └── main.css  
+    ├── feed.xml  
+    ├── index.html  
+    └── jekyll  
+        └── update  
+            └── 2015  
+                └── 09  
+                    └── 23  
+                        └── welcome-to-jekyll.html  
+13 directories, 20 files
