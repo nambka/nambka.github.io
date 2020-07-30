@@ -4,9 +4,244 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hi, we are landing here</title>
+    <title>Welcome!</title>
+
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/nav.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+
 </head>
+
 <body>
-    <p>This is the index.html</p>
+    <nav id="ac-localnav" class="js touch css-sticky ac-ln-sticking" lang="en-US" dir="ltr" role="navigation" aria-label="Local">
+        <div class="ac-ln-wrapper">
+            <div class="ac-ln-background"></div>
+            <div class="ac-ln-content">
+                <div class="ac-ln-title">
+                    <a href="https://nambka.github.io/portfolio/">nambk</a>
+                </div>
+                <div class="ac-ln-menu">
+                    <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">
+                        <span class="ac-ln-menucta-anchor-label">Local Nav Open Menu</span>
+                    </a>
+                    <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">
+                        <span class="ac-ln-menucta-anchor-label">Local Nav Close Menu</span>
+                    </a>
+                    <div class="ac-ln-menu-tray">
+                        <ul class="ac-ln-menu-items">
+                            <li class="ac-ln-menu-item">
+                                <span class="ac-ln-menu-link current" role="link" aria-disabled="true" aria-current="page">Home</span>
+                            </li>
+                            <li class="ac-ln-menu-item">
+                                <a href="https://nambka.github.io/portfolio/" class="ac-ln-menu-link">All New You</a>
+                            </li>
+                            <li class="ac-ln-menu-item">
+                                <a href="https://nambka.github.io/portfolio/" class="ac-ln-menu-link">Design Excellence</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ac-ln-actions">
+                        <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                            <label for="ac-ln-menustate" class="ac-ln-menucta">
+                                <span class="ac-ln-menucta-chevron"></span>
+                            </label>
+                        </div>
+                        <div class="ac-ln-action ac-ln-action-button">
+                            <a class="ac-ln-button" href="https://nambka.github.io/portfolio/">Portfolio <span class="ac-ln-action-product"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="bg-light">
+        <div class="container py-3">
+            <div class="">
+                Spacer | Title
+            </div>
+        </div>
+        <div class="container content-place-holder">
+            <div class="row mb-4">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h4 class="card-header-title">Overview <span class="text-secondary small">[ERC-20]</span> </h4>
+                        </div>
+            
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0">Price:</div>
+                                <div class="col-md-8"><span class="d-block">
+                                        $0.0283<span class="small text-secondary text-nowrap"> @ 0.000153 Eth</span> <span class="small text-danger">(-6.18%)</span>
+                                    </span></div>
+                            </div>
+                            <hr class="hr-space">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0">Cir / MktCap:</div>
+                                <div class="col-md-8">$2,418,922.34 / <span class="small text-secondary text-nowrap">$6,334,603.55</span>
+                                </div>
+                            </div>
+                            <hr class="hr-space">
+
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0"><span title="Total Supply" style="white-space: nowrap;">Total Supply:</span></div>
+                                <div class="col-md-8 font-weight-medium"><span class="hash-tag text-truncate" title="223, 534, 822.661">223,534,822<b>.</b>661</span> TIOx</div>
+                            </div>
+                            <hr class="hr-space">
+
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0">Holders:</div>
+                                <div class="col-md-8">8,117 addresses</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <h4 class="card-header-title mr-1 mb-0 d-flex">Profile Summary</h4><a class="text-sm-center" href="javascript:ShowPopup();" data-toggle="tooltip" data-placement="top" title="" data-original-title="Update Token Info">[Edit]</a>
+                            </div>
+                            <div class="d-flex">
+                                <div class="position-relative content-place-holder__moreoptions">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0">Contract:</div>
+                                <div class="col-md-8">
+                                    <div class="d-flex clipboard-hover">
+                                        <a id="spanTarget_0xd947b0ceab2a8885866b9a04a06ae99de852a3d4" class="text-truncate d-block mr-2" href="/address/0xd947b0ceab2a8885866b9a04a06ae99de852a3d4">0xd947b0ceab2a8885866b9a04a06ae99de852a3d4</a>
+                                        <a class="js-clipboard clipboard-hover__item text-secondary" data-title="Copy address" href="javascript:;" data-toggle="tooltip" data-type="tooltip" data-success-text="Copied" data-content-target="#spanTarget_0xd947b0ceab2a8885866b9a04a06ae99de852a3d4" data-class-change-target="#span_0xd947b0ceab2a8885866b9a04a06ae99de852a3d4" data-default-class="far fa-copy" data-success-class="far fa-check-circle" data-original-title="" title="">
+                                            <span id="span_0xd947b0ceab2a8885866b9a04a06ae99de852a3d4" class="far fa-copy"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="hr-space">
+            
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0">Decimals:</div>
+                                <div class="col-md-8">
+                                    18
+                                </div>
+                            </div>
+                            <hr class="hr-space">
+
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0">Official Site:</div>
+                                <div class="col-md-8">
+                                    <a href="https://trade.io/" rel="nofollow" target="_blank">https://trade.io/ 
+                                        <i class="fas fa-external-link-alt fa-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <hr class="hr-space">
+            
+                            <div class="row align-items-center">
+                                <div class="col-md-4 mb-1 mb-md-0">Social Profiles:</div>
+                                <div class="col-md-8">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Email: support@trade.io" href="mailto:support@trade.io"><span class="fa fa-envelope"></span></a></li>
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Blog: https://medium.com/@trade.io" rel="nofollow" target="_blank" href="https://medium.com/@trade.io"><i class="fas fa-pencil-alt"></i></a></li>
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Facebook: https://www.facebook.com/trade.io" rel="nofollow" target="_blank" href="https://www.facebook.com/trade.io"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Twitter: https://twitter.com/TradeToken" rel="nofollow" target="_blank" href="https://twitter.com/TradeToken"><span class="fab fa-twitter"></span></a></li>
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Bitcointalk: https://bitcointalk.org/index.php?topic=2367245" rel="nofollow" target="_blank" href="https://bitcointalk.org/index.php?topic=2367245"><span class="fab fa-btc"></span></a></li>
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Github: https://github.com/trade-io/Tradeio-TokenSale-Contract" rel="nofollow" target="_blank" href="https://github.com/trade-io/Tradeio-TokenSale-Contract"><span class="fab fa-github"></span></a></li>
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Telegram: https://t.me/TradeToken" rel="nofollow" target="_blank" href="https://t.me/TradeToken"><span class="fab fa-telegram"></span></a></li>
+                                        <li class="list-inline-item mr-3"><a class="link-hover-secondary" data-placement="top" data-toggle="tooltip" data-original-title="Whitepaper: https://trade.io/whitepaper/EN.pdf" rel="nofollow" target="_blank" href="https://trade.io/whitepaper/EN.pdf"><span class="fa fa-file-alt"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="container content-place-holder">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-header-title">Card header <span class="text-secondary small">[card-header]</span> </h4>
+                </div>
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 mb-1 mb-md-0">Card body:</div>
+                        <div class="col-md-8">[card-body]</div>
+                    </div>
+                    <hr class="hr-space">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 mb-1 mb-md-0">Card body:</div>
+                        <div class="col-md-8">[card-body]</div>
+                    </div>
+                    <hr class="hr-space">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 mb-1 mb-md-0">Card body:</div>
+                        <div class="col-md-8">[card-body]</div>
+                    </div>
+                    <hr class="hr-space">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 mb-1 mb-md-0">Card body:</div>
+                        <div class="col-md-8">[card-body]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-bottom-2"></div></div>
+    </main>
+    <div id="push"></div>
+    
+    <footer class="gradient-half-primary-body-v1 py-4">
+        <div class="container">
+            <div class="row justify-content-md-between font-size-1 py-3" style="background: url(./assets/images/world-map-white.png) no-repeat 0 30%;">
+                <div class="col-lg-3 mb-4 mb-lg-0">
+                    <div class="d-flex h-100 flex-column">
+                        <div class="d-flex align-items-center mb-4">
+                            <img width="32" src="./assets/images/snapseed256.png" alt="Landing Page Logo">
+                            <span class="h4 text-white mb-0 ml-3">Powered by Nambk</span>
+                        </div>
+                        <p class="text-white">NAMBK is the landing page for a brand new journey to the every beautiful angle of this world, the world built from our creativity, from our bounderless imagination.</p>
+    
+                        <div class="d-flex align-items-center">
+                            <a class="btn btn-xss btn-soft-light mr-2" href="/settings">
+                                <i class="fa fa-cogs mr-1"></i>Preferences
+                            </a>
+                            <button id="darkModaBtn" type="button" data-toggle="tooltip" data-title="Day/Night Mode" class="btn btn-sm btn-icon btn-soft-light" data-original-title="" title="">
+                                <i id="darkModaBtnIcon" class="fa fa-moon"></i></button>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </footer>    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    <script>
+        // Toggle between Day/Night mode
+        $(document).ready(function() {
+
+        });
+
+
+        $('#darkModaBtn').click(function(event) {
+            $('body').toggleClass('dark-mode');
+        });
+
+    </script>
 </body>
 </html>
