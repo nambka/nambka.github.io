@@ -61,7 +61,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-.flex-center {
+.border-radius-25 {
     height: 50px;
     width: 50px;
     display: flex;
@@ -75,9 +75,27 @@ h1 {
     border-color: rgba(234, 236, 239, 0.2);
     border-image: initial;
 }
-.flex-center img {
+.border-radius-25 img {
     width: 80%;
     height: 80%;
+}
+.border-radius-50 {
+    height: 80px;
+    width: 80px;
+    display: flex!important;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(234, 236, 239, 0.2);
+    border-image: initial;
+}
+.border-radius-50 img {
+    width: 98%;
+    height: 98%;
 }
 img {
     vertical-align: middle;
