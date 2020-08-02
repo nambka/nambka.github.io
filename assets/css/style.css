@@ -12,6 +12,11 @@ body {
     background-color: rgb(18, 22, 28);
     padding: 50px 0px 100px;
 }
+@media only screen and (max-width: 768px) {
+    .body-bkg-black {
+        padding: 20px 0px 1.5rem;
+    }
+}
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
@@ -25,24 +30,49 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 0px auto 70px;
 }
+@media only screen and (max-width: 768px) {
+    .content-center-white {
+        margin: 0 auto 2rem;
+    }
+}
+
 .content-center-white h1 {
     font-size: 70px;
+    /* font-weight: 700; */
+    margin-top: 26px;
     margin-bottom: 0px;
 }
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0px;
+@media only screen and (max-width: 1068px) {
+    .content-center-white h1 {
+        font-size: 56px;
+        font-weight: 300;
+        margin-top: 24px;
+    }
 }
+@media only screen and (max-width: 735px) {
+    .content-center-white h1 {
+        font-size: 42px;
+        font-weight: 300;
+        margin-top: 24px;
+    }
+}
+
 .content-center-white span {
     font-size: 16px;
     opacity: 0.5;
 }
+@media only screen and (max-width: 768px) {
+    .content-center-white span {
+        font-size: 14px;
+        opacity: 0.4;
+    }
+}
 
 .card-nambk {
-    width: 616px;
+    /* width: 616px; */
     cursor: pointer;
     background-color: rgb(18, 22, 28);
-    margin: 12px;
+    /* margin: 12px; */
     padding: 32px;
     border-width: 1px;
     border-style: solid;
@@ -50,8 +80,26 @@ h1 {
     border-image: initial;
     border-radius: 10px;
 }
-.card-nambk:nth-child(2n+1) {
-    margin-left: 0px;
+@media (min-width: 1200px) {
+    .card-nambk {
+        width: 550px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .card-nambk:nth-child(2n+1) {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .card-nambk:nth-child(2n+1) {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card-nambk:nth-child(2n+1) {
+        padding: 1rem;
+        margin-left: 0px;
+    }
 }
 .card-nambk:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -93,6 +141,13 @@ h1 {
     border-color: rgba(234, 236, 239, 0.2);
     border-image: initial;
 }
+@media only screen and (max-width: 768px) {
+    .border-radius-50    {
+        height: 60px;
+        width: 60px;
+    }
+}
+
 .border-radius-50 img {
     width: 98%;
     height: 98%;
@@ -155,6 +210,11 @@ img {
     font-weight: 400;
     position: relative;    
 }
+@media only screen and (max-width: 768px) {
+    .text-green-34 {
+        font-size: 30px;
+    }
+}
 
 .text-green-34-percent {
     font-size: 34px;
@@ -192,6 +252,18 @@ img {
     font-size: 14px;
     padding: 24px 66px;
 }
+@media only screen and (max-width: 990px) {
+    .text-14 {
+        font-size: 14px;
+        padding: 1rem 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .text-14 {
+        font-size: 14px;
+        padding: 1rem 0;
+    }
+}
 .text-14-left {
     font-size: 14px;
     color: rgba(255, 255, 255, 0.4);
@@ -211,12 +283,22 @@ img {
 /* Button alignment */
 .flex-wrapper-center {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
     padding: 24px 0px 0px 66px;
+}
+@media only screen and (max-width: 990px) {
+    .flex-wrapper-center {
+        padding: 1rem 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .flex-wrapper-center {
+        padding: 1rem 0;
+    }
 }
 .bnc-btn.bnc-btn-padding-lg {
     padding: 0 20px;
@@ -286,26 +368,6 @@ img {
     position: relative;
     margin: 0px auto;
 }
-.gap .mask {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    opacity: 0;
-    pointer-events: none;
-    background: black;
-}
-.mask-rect {
-    width: 50px;
-    height: 35px;
-    text-align: center;
-    font-size: 10px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
 
 /* Last description/more line */
 .additional-info-flex-center {
@@ -317,6 +379,11 @@ img {
     align-items: center;
     margin: 44px auto 0px;
 }   
+@media only screen and (max-width: 768px) {
+    .additional-info-flex-center {
+        margin: 1.5rem auto 0;
+    }
+}
 .flex-wrapper-3 {
     display: flex;
     flex-wrap: wrap;
