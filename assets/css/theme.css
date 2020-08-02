@@ -285,7 +285,7 @@ a {
     text-decoration: none;
 }
 .btn-xss {
-    font-size: .60938rem;
+    font-size: .60938rem!important;
     padding: .3rem .6rem;
 }
 .btn-xs, .btn-xss {

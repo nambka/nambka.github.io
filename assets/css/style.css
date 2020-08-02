@@ -305,6 +305,13 @@ img {
     font-size: 14px;
     height: 40px;
 }
+@media only screen and (max-width: 767px) {
+    .bnc-btn.bnc-btn-padding-lg {
+        padding: 0 10px;
+        height: 32px;
+    }
+}
+
 .bnc-btn.bnc-btn-primary {
     color: #212833;
     background: -webkit-gradient(linear,left top,right top,from(#f0b90b),to(#fbda3c));
