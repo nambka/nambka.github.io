@@ -89,10 +89,12 @@ body.dark-mode .panel {
     background-color: #012137 !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
     border: 1px solid #eee2;
+    transition: .3s all ease
 }
 body.dark-mode .panel:hover {
+    background-color: #dadada11!important;
     box-shadow: 2px 5px 10px 0 rgba(0,0,0,.3);
-    /* border: 1px solid #dadada; */
+    transition: .2s all ease
 }
 
 body.dark-mode .text-secondary {
@@ -193,10 +195,12 @@ main {
     border: 1px solid #e5e5e5;
     border-radius: 4px;
     cursor: pointer;
+    transition: .3s all ease
 }
 .panel:hover {
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
     border: 1px solid #dadada;
+    transition: .2s all ease
 }
 
 .panel-body {
