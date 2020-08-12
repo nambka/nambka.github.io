@@ -8,12 +8,12 @@ body {
     font-family: DINNext, sans-serif !important;
 }
 
-.body-bkg-black {
+.body-bg-black {
     background-color: rgb(18, 22, 28);
     padding: 50px 0px 100px;
 }
 @media only screen and (max-width: 768px) {
-    .body-bkg-black {
+    .body-bg-black {
         padding: 20px 0px 1.5rem;
     }
 }
@@ -25,18 +25,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
-.content-center-white {
-    color: #eee;
+.content-center {
     text-align: center;
     margin: 0px auto 70px;
 }
 @media only screen and (max-width: 768px) {
-    .content-center-white {
+    .content-center {
         margin: 0 auto 2rem;
     }
 }
 
-.content-center-white h1 {
+.content-center h1 {
     font-size: 70px;
     /* font-weight: 700; */
     margin-top: 26px;
@@ -44,14 +43,14 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 0 6px;
 }
 @media only screen and (max-width: 1068px) {
-    .content-center-white h1 {
+    .content-center h1 {
         font-size: 56px;
         font-weight: 300;
         margin-top: 24px;
     }
 }
 @media only screen and (max-width: 735px) {
-    .content-center-white h1 {
+    .content-center h1 {
         font-size: 42px;
         font-weight: 300;
         margin-top: 24px;
